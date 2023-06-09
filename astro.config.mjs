@@ -3,7 +3,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "tmfm.buildwithhussain.dev",
+  site: "https://tmfm.buildwithhussain.dev",
   integrations: [
     starlight({
       title: "The Missing Frappe Manual",
