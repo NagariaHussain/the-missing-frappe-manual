@@ -1,25 +1,27 @@
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "tmfm.buildwithhussain.dev",
   integrations: [
     starlight({
-      title: 'My Docs',
+      title: "The Missing Frappe Manual",
       social: {
-        github: 'https://github.com/withastro/starlight',
+        github: "https://github.com/NagariaHussain",
+        twitter: "https://twitter.com/NagariaHussain",
       },
       sidebar: [
         {
-          label: 'Guides',
+          label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: 'Example Guide', link: '/guides/example/' },
+            { label: "Example Guide", link: "/guides/example/" },
           ],
         },
         {
-          label: 'Reference',
-          autogenerate: { directory: 'reference' },
+          label: "Reference",
+          autogenerate: { directory: "reference" },
         },
       ],
     }),
