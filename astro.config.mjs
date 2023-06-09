@@ -6,7 +6,7 @@ export default defineConfig({
   site: "https://tmfm.buildwithhussain.dev",
   markdown: {
     shikiConfig: {
-      theme: "material-theme-palenight",
+      theme: "github-dark",
       wrap: true,
     }
   },
