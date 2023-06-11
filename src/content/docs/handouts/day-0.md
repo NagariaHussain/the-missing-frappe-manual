@@ -15,7 +15,7 @@ In this particular guide, we will just play around with the vanilla Frappe site 
 
 ## First Steps
 
-Before you can get your hands dirty with building stuff with Frappe Framework, you need to have bench installed on your local machine. For using the no-code/low-code features, you can use a Frappe Cloud site, but if you want to build custom apps, you will need bench installed. Follow [this](https://frappeframework.com/docs/v14/user/en/installation) guide to install and setup bench on your site.
+Before you can get your hands dirty with building stuff with Frappe Framework, you need to have bench installed on your local machine. For using the no-code/low-code features, you can use a Frappe Cloud site, but if you want to build custom apps, you will need bench installed. Follow [this](https://frappeframework.com/docs/v14/user/en/installation) guide to install and setup bench on your machine.
 
 After you have installed the bench and created a new site, I would recommend you to start by exploring the following:
 
