@@ -14,7 +14,7 @@ export default defineConfig({
     starlight({
       title: "Missing Frappe Manual",
       editLink: {
-        baseUrl: "https://github.com/NagariaHussain/missing-frappe-manual/edit/main/"
+        baseUrl: "https://github.com/NagariaHussain/the-missing-frappe-manual/edit/main/"
       },
       social: {
         github: "https://github.com/NagariaHussain",
