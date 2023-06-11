@@ -21,7 +21,7 @@ After you have installed the bench and created a new site, I would recommend you
 
 ### The Desk
 
-Explore the desk interface, this is the admin interface for your Frappe site. Specially, get yourself comfortable using this part of the navbar:
+Explore the desk interface, this is the admin interface for your Frappe site. Specially, get yourself comfortable using the highlighted parts in the screenshot:
 
 ![Highlighted Desk](../../../assets/images/highlighted-desk.png)
 
