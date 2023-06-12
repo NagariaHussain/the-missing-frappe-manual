@@ -8,19 +8,29 @@ export default defineConfig({
     shikiConfig: {
       theme: "github-dark",
       wrap: true,
-    }
+    },
   },
   integrations: [
     starlight({
       title: "Missing Frappe Manual",
       editLink: {
-        baseUrl: "https://github.com/NagariaHussain/the-missing-frappe-manual/edit/main/"
+        baseUrl:
+          "https://github.com/NagariaHussain/the-missing-frappe-manual/edit/main/",
       },
       social: {
         github: "https://github.com/NagariaHussain",
         twitter: "https://twitter.com/NagariaHussain",
       },
       sidebar: [
+        {
+          label: "Introduction",
+          items: [
+            {
+              label: "What is Frappe Framework?",
+              link: "/introduction/ff-definition",
+            },
+          ],
+        },
         {
           label: "FSchool Handouts",
           items: [
