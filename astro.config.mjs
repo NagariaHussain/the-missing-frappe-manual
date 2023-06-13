@@ -32,6 +32,15 @@ export default defineConfig({
           ],
         },
         {
+          label: "Installation",
+          items: [
+            {
+              label: "Easy Install With Docker",
+              link: "/installation/docker-easy-install",
+            },
+          ],
+        },
+        {
           label: "FSchool Handouts",
           items: [
             // Each item here is one entry in the navigation menu.
