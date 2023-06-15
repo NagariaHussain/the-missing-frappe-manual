@@ -5,6 +5,14 @@ description: Let's model a Airplane Ticket System using DocTypes!
 
 Welcome to Day 1 folks! In today's training you learned a lot about the concept of a **DocType**. Now it is time for you to explore and practice more!
 
+## Prerequisites
+
+Before proceeding with this exercise, make sure you do the following:
+
+1. Create **a new site** in your local machine / bench
+2. **Enable developer mode** on this site
+3. Create **a new custom app and install it** on the above mentioned site (you can name the app `airplane_mode`).
+
 ## Exercise: Airplane Mode
 
 Let us model a hypothetical flight ticket system while learning a few new concepts on the way!
@@ -90,7 +98,7 @@ Keep in mind that Fetch From only does the fetching once, it does not keep the f
 
 ### Airplane Ticket DocType
 
-Now this a very core DocType!
+Now this a very core DocType! This DocType must be a Submittable DocType.
 
 **Name**
 
@@ -126,7 +134,6 @@ Feel free to use the new [**Form Builder**](https://www.youtube.com/watch?v=hUBB
 ### Document States
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HhtKQpcm6RI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 
 ### Connections / Linked Documents
 
@@ -172,7 +179,7 @@ Create a new workspace with 3 shortcuts as shown below:
 - All Passengers: Shortcut to **Flight Passenger** DocType List
 - All Airplanes: Shortcut to **Airplane** DocType List
 
-## Submission
+## Submission [Mandatory for Certification]
 
 :::note
 If you are unable to complete any task, please feel free to ask them in the next training session or on TG after that. But DO NOT give up before that, try to read the docs, Frappe source code etc. if you don't know something.
@@ -184,6 +191,29 @@ Use [this](https://cms.buildwithhussain.dev/fschool-assignment-submission/new) f
 
 If you have any problems in submitting the assignment, please drop me an email at [hussain@frappe.io](mailto:hussain@frappe.io)
 
-## More Resources
+## Essential Reading List
 
-- [Framework Docs on DocType]()
+- [Framework Docs on Child DocTypes](https://frappeframework.com/docs/v14/user/en/basics/doctypes/child-doctype)
+
+- [Framework Docs on Single DocTypes](https://frappeframework.com/docs/v14/user/en/basics/doctypes/child-doctype)
+
+- [DocType Controllers](https://frappeframework.com/docs/v14/user/en/basics/doctypes/controllers)
+
+- Skim though [Document API documentation](https://frappeframework.com/docs/v14/user/en/api/document)
+
+- [REST API documentation](https://frappeframework.com/docs/v14/user/en/api/rest)
+
+
+## [BONUS] Would like to get more practice?
+
+If you want to tackle some more challenges, you can try to achieve the following:
+
+1. Use a tool like Postman or Insomnia or `curl` to talk to the REST API to perform CRUD (create, read, update, delete) operation on Airline and Airplane DocTypes.
+
+2. Create a new Web Page (using `Web Page` DocType) accessible at `/about-me` route with a Hero section and cards section identical to the one in the screenshot:
+
+![Screenshot of About me web page](../../../assets/images/about-me-webpage.png)
+
+3. Use the **Data Import** tool to import 5 new `Airline` records into the system.
+
+4. Use the **Data Export** tool to export all the `Airplane Ticket` documents (be sure to create some test records first!) as a CSV file.
