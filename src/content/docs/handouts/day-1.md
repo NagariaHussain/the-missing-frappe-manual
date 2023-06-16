@@ -195,7 +195,7 @@ If you have any problems in submitting the assignment, please drop me an email a
 
 - [Framework Docs on Child DocTypes](https://frappeframework.com/docs/v14/user/en/basics/doctypes/child-doctype)
 
-- [Framework Docs on Single DocTypes](https://frappeframework.com/docs/v14/user/en/basics/doctypes/child-doctype)
+- [Framework Docs on Single DocTypes](https://frappeframework.com/docs/v14/user/en/basics/doctypes/single-doctype)
 
 - [DocType Controllers](https://frappeframework.com/docs/v14/user/en/basics/doctypes/controllers)
 
