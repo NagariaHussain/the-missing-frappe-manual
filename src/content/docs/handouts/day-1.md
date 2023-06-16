@@ -17,6 +17,10 @@ Before proceeding with this exercise, make sure you do the following:
 
 Let us model a hypothetical flight ticket system while learning a few new concepts on the way!
 
+:::note
+The field `Name` in the below DocTypes should not be a separate field defined by you (i.e. MUST NOT ADD to the fields table in DocType form), it refers to the Framework defined name.
+:::
+
 ### Airline DocType
 
 Since, you now know how to create a new DocType, go ahead and create one with the following specs:
