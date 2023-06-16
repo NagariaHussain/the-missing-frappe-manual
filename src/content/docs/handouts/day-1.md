@@ -74,7 +74,7 @@ Set by user
 
 This DocType will be used to store the master data for airports.
 
-### Passenger DocType
+### Flight Passenger DocType
 
 This DocType will be used to store the details of a passenger/traveler.
 
