@@ -17,10 +17,6 @@ Before proceeding with this exercise, make sure you do the following:
 
 Let us model a hypothetical flight ticket system while learning a few new concepts on the way!
 
-:::note
-The field `Name` in the below DocTypes should not be a separate field defined by you (i.e. MUST NOT ADD to the fields table in DocType form), it refers to the Framework defined name.
-:::
-
 ### Airline DocType
 
 Since, you now know how to create a new DocType, go ahead and create one with the following specs:
@@ -29,9 +25,12 @@ Since, you now know how to create a new DocType, go ahead and create one with th
 
 Airline
 
+**Naming Rule**
+
+Set by User
+
 **Fields**
 
-0. Name (Set by user)
 1. Founding Year (Int, Non-negative)
 2. Customer Care Number (Data, Mandatory)
 3. Headquarters (Data, Mandatory)
@@ -46,9 +45,11 @@ Go ahead, create a few sample records for this.
 
 Airplane
 
+**Naming Rule**
+Naming Series: Name should be of the form: `IndiGo-013`, `AirAsia-006` etc. where the first part is the name of the airline
+
 **Fields**
 
-0. Name (Naming Series) (Name should be of the form: `IndiGo-013`, `AirAsia-006` etc. where the first part is the name of the airline)
 1. Model (Data, Mandatory)
 2. Airline (**link** to Airline DocType, Mandatory)
 3. Capacity (Int, Non-negative, Mandatory)
@@ -61,9 +62,12 @@ This DocType will be used to store a particular flight/airplane of a given Airli
 
 Airport
 
+**Naming Rule**
+
+Set by user
+
 **Fields**
 
-0. Name (Set by user)
 1. Code (Data, Mandatory)
 2. City (Data, Mandatory)
 3. Country (Data, Mandatory)
@@ -78,9 +82,12 @@ This DocType will be used to store the details of a passenger/traveler.
 
 Flight Passenger
 
+**Naming Rule**
+
+Auto Incrementing Integers: 1, 2, 3, etc.
+
 **Fields**
 
-0. Name (Auto Increment)
 1. First Name (Data, Mandatory)
 2. Last Name (Data)
 3. Date Of Birth (Date, Mandatory)
@@ -108,9 +115,12 @@ Now this a very core DocType! This DocType must be a Submittable DocType.
 
 Airplane Ticket
 
+**Naming Rule**
+
+Naming Series: Name should be of the form: `IndiGo-013-BLR-to-BOM-002` where `IndiGo-013` is the airplane name, `BLR` is the code of the source airport and `BOM` is the code of the destination airport
+
 **Fields**
 
-0. Name (Naming Series) (Name should be of the form: `IndiGo-013-BLR-to-BOM-002` where `IndiGo-013` is the airplane name, `BLR` is the code of the source airport and `BOM` is the code of the destination airport)
 1. Passenger (link to Flight Passenger, Mandatory)
 2. Source Airport (link to source Airport, Mandatory)
 3. Destination Airport (link to destination Airport, Mandatory)
