@@ -185,7 +185,14 @@ Create a new workspace with 3 shortcuts as shown below:
 If you are unable to complete any task, please feel free to ask them in the next training session or on TG after that. But DO NOT give up before that, try to read the docs, Frappe source code etc. if you don't know something.
 :::
 
-Go to your custom app where you have created the above mentioned DocTypes and upload the files `airplane.json`, `airline.json`, `airplane_ticket.json` and `flight_passenger.json` in the submission form below. NOTE: Change the extension of the files from `.json` to `.txt` before uploading the files. 
+Go to your custom app where you have created the above mentioned DocTypes and upload the files `airplane.json`, `airline.json`, `airplane_ticket.json` and `flight_passenger.json` in the submission form below.
+
+:::danger[Before You Submit]
+
+1. Change the extension of the files from `.json` to `.txt` before uploading the files.
+2. DO NOT upload links to file, attach the file from your local computer
+3. Make sure the DocType names and field names match the above mentioned verbatim.
+:::
 
 Use [this](https://cms.buildwithhussain.dev/fschool-assignment-submission/new) form to submit your assignment.
 
@@ -202,7 +209,6 @@ If you have any problems in submitting the assignment, please drop me an email a
 - Skim though [Document API documentation](https://frappeframework.com/docs/v14/user/en/api/document)
 
 - [REST API documentation](https://frappeframework.com/docs/v14/user/en/api/rest)
-
 
 ## [BONUS] Would like to get more practice?
 
