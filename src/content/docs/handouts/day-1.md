@@ -7,7 +7,7 @@ Welcome to Day 1 folks! In today's training you learned a lot about the concept 
 
 ## Video Recording
 
-The video recording of the training session can be found [here](https://drive.google.com/file/d/1zsGn74TLBSvwuQvAfLb_WHXOkOsKXK2u/view?usp=drive_link).
+The video recording of the 1st day of training session can be found [here](https://drive.google.com/file/d/1zsGn74TLBSvwuQvAfLb_WHXOkOsKXK2u/view?usp=drive_link).
 
 ## Prerequisites
 
