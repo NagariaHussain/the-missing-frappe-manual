@@ -17,7 +17,7 @@ Now that you are equipped with the knowledge of controller methods/document hook
 
 ### Let's start simple
 
-Your goal here is add a new field named **Full Name** (mandatory, read-only) to the `Flight Passenger` DocType and **auto** set it based on the `First Name` and `Last Name` field before the document is saved to the database. Write some Python code to achieve this.
+Your goal here is add a new field named **Full Name** (read-only) to the `Flight Passenger` DocType and **auto** set it based on the `First Name` and `Last Name` field before the document is saved to the database. Write some Python code to achieve this.
 
 :::note[Task]
 
