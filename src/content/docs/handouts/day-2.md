@@ -155,7 +155,7 @@ Phew! That was some work. But we are done now and the application is better mode
 
 Write Python/Controller code to achieve the following outcome:
 
-1. The **Seat** field of the `Airplane Ticket` DocType should be set to a string of the form: `<random-integer><random-capital-alphabet-from-A-to-E>`. For example, `89E`, `21A`, etc. The field should be set before a new flight ticket document is inserted into the database. You may be interested in reading the docs for [Python's random module](https://python.readthedocs.io/en/latest/library/random.html#), sections `9.6.2` and `9.6.3` in specific.
+1. The **Seat** field of the `Airplane Ticket` DocType should be set to a string of the form: `<random-integer><random-capital-alphabet-from-A-to-E>`. For example, `89E`, `21A`, etc. The field **should be set before a new flight ticket document is inserted into the database.** You may be interested in reading the docs for [Python's random module](https://python.readthedocs.io/en/latest/library/random.html#), sections `9.6.2` and `9.6.3` in specific.
 
 2. Set the **Status** field of the `Airplane Flight` DocType to `Completed` after the document is submitted.
 
