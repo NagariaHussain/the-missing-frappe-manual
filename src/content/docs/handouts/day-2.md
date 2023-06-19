@@ -57,22 +57,22 @@ Here are the specifications for the child table doctype:
 
 **Fields**
 
-1. Add-on Type: Link to `Airplane Ticket Add-on Type`, Mandatory
+1. Item: Link to `Airplane Ticket Add-on Type`, Mandatory
 2. Amount: Currency, default 0
 
 Now go ahead and add a table field in the **Airplane Ticket** DocType that uses this child table doctype you just created. The name of the table field must be `add_ons`.
 
 ### More Controllers
 
-What we want now is to calculate the total amount for the ticket by adding all the add-on amounts as well as the ticket price. Start by adding 2 new fields to the `Airplane Ticket` DocType:
+What we want now is to calculate the total amount for the ticket by adding all the add-on amounts as well as the flight price. Start by adding 2 new fields to the `Airplane Ticket` DocType:
 
-* Ticket Price: Currency, Mandatory
+* Flight Price: Currency, Mandatory
 * Total Amount: Currency
 
 After you have added the above two fields, go ahead and write the logic that populates the **Total Amount** as follows:
 
 ```
-Total Amount = Ticket Price + Sum of amounts of all the add-ons
+Total Amount = Flight Price + Sum of amounts of all the add-ons
 ```
 
 Sweet!
