@@ -77,7 +77,7 @@ Total Amount = Flight Price + Sum of amounts of all the add-ons
 
 Sweet!
 
-But there is a slight issue here, we don't want the user to add an add-on more than once, i.e. each type of add on in the `add_ons` child table should be unique. You know what to do right? Go ahead and write some logic that removes duplicate entries from it while the document is `validate`d!
+But there is a slight issue here, we don't want the user to add an add-on more than once, i.e. each **type of add** on in the `add_ons` child table should be unique. You know what to do right? Go ahead and write some logic that removes duplicate entries from it while the document is `validate`d!
 
 #### All Aboard
 
