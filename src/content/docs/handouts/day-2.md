@@ -284,7 +284,7 @@ Go to your custom app where the files have been generated and upload the followi
 
 :::danger[Before You Submit]
 
-1. Change the extension of all the files to `.txt` before uploading the files.
+1. Add `.txt` extension to all the files before uploading/attaching. For instance, `airplane_ticket.py` becomes `airplane_ticket.py.txt`
 2. DO NOT upload links to file, attach the file from your local computer
 3. Make sure the DocType names and field names match the above mentioned verbatim.
 :::
