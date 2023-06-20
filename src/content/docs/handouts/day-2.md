@@ -280,7 +280,7 @@ Go to your custom app where the files have been generated and upload the followi
 5. The JSON file generated for the **Book Flight Ticket** Web form (look inside the **web_form** directory of your custom app, the name of the file depends on the title you gave to the web form)
 6. The JSON file generated for the **Departs in 24 hours!** notification (look inside the `notification` directory in your custom app)
 7. `airplane_ticket.py`
-8. `airplane_passenger.py`
+8. `flight_passenger.py`
 
 :::danger[Before You Submit]
 
