@@ -181,7 +181,7 @@ Go to your custom app where the files have been generated and upload the followi
 3. Make sure the DocType names and field names match the above mentioned verbatim.
 :::
 
-Use [this](https://cms.buildwithhussain.dev/fschool-assignment-submission/new) form to submit your assignment. Select `2` for the day field.
+Use [this](https://cms.buildwithhussain.dev/fschool-assignment-submission/new) form to submit your assignment. Select `3` for the day field.
 
 If you have any problems in submitting the assignment, please drop me an email at [hussain@frappe.io](mailto:hussain@frappe.io)
 
