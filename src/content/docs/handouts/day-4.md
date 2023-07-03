@@ -13,6 +13,7 @@ Topic covered in the above training session:
 * Queueing
 * Real time (Socket.IO)
 * Debugging & Profiling
+* Patches (with a real-world scenario)
 * Unit Tests
 
 **We also investigated a bug, fixed it and raised a PR, live!**
