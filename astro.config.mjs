@@ -18,6 +18,7 @@ export default defineConfig({
           "https://github.com/NagariaHussain/the-missing-frappe-manual/edit/main/",
       },
       social: {
+        youtube: "https://youtube.com/@buildwithhussain",
         github: "https://github.com/NagariaHussain",
         twitter: "https://twitter.com/NagariaHussain",
       },
