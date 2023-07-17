@@ -27,7 +27,7 @@ Demo first, instructions second:
 
 ![Assign Seat Feature in Airplane Ticket Form](/assign_seat_action.gif)
 
-The task is simple here, add a custom button like the one shown above and on click, show a dialog with an input field to get the seat number and set it to the `Seat` field in the form. Easy to do, right?
+The task is simple here, add a custom button like the one shown above in **Airplane Ticket** form view and on click, show a dialog with an input field to get the seat number and set it to the `Seat` field in the form. Easy to do, right?
 
 ## Some More Learning
 
