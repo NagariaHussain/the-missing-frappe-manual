@@ -121,7 +121,7 @@ Airplane Ticket
 
 **Naming Rule**
 
-Naming Series: Name should be of the form: `IndiGo-013-BLR-to-BOM-002` where `IndiGo-013` is the airplane name, `BLR` is the code of the source airport and `BOM` is the code of the destination airport
+Naming Expression: Name should be of the form: `IndiGo-013-BLR-to-BOM-002` where `IndiGo-013` is the airplane name, `BLR` is the code of the source airport and `BOM` is the code of the destination airport
 
 **Fields**
 
@@ -203,18 +203,17 @@ Create a new workspace with 3 shortcuts as shown below:
 If you are unable to complete any task, please feel free to ask them in the next training session or on TG after that. But DO NOT give up before that, try to read the docs, Frappe source code etc. if you don't know something.
 :::
 
-Go to your custom app where you have created the above mentioned DocTypes and upload the files `airplane.json`, `airline.json`, `airplane_ticket.json` and `flight_passenger.json` in the submission form below.
+Go to your custom app where you have created the above mentioned DocTypes and compress the files `airplane.json`, `airline.json`, `airplane_ticket.json` and `flight_passenger.json` to a `.zip` archive.
 
 :::danger[Before You Submit]
 
-1. Change the extension of the files from `.json` to `.txt` before uploading the files.
-2. DO NOT upload links to file, attach the file from your local computer
-3. Make sure the DocType names and field names match the above mentioned verbatim.
+Make sure the DocType names and field names match the above mentioned verbatim. Don't add any extra fields.
+
 :::
 
-Use [this](https://cms.buildwithhussain.dev/fschool-assignment-submission/new) form to submit your assignment.
+Visit [this](https://frappe.school/assignments-portal/day-1) portal to submit your assignment.
 
-If you have any problems in submitting the assignment, please drop me an email at [hussain@frappe.io](mailto:hussain@frappe.io)
+If you have any problems in submitting the assignment or find a bug in the portal, please drop me an email at [hussain@frappe.io](mailto:hussain@frappe.io)
 
 ## Essential Reading List
 
