@@ -253,7 +253,7 @@ Now, it is time to allow the user to book tickets! We will use Frappe Framework'
 
 Here are some things to note:
 
-* The **Name** of the Notification **must** end with **Notification** (so that it generates a JSON file of the form  `*notification.json`, which is essential for automated checking)
+* The **Title** of the Web Form **must** end with **Web Form** (so that it generates a JSON file of the form  `*web_form.json`, which is essential for automated checking)
 
 * This web form must be linked to the Airplane Ticket doctype
 
@@ -266,6 +266,8 @@ Here are some things to note:
 Use the **Notification** feature in Frappe to send a **System Notification** to every System Manager **1 day before the flight departure date** of any Airplane Flight where the status is `Scheduled`. The subject of the notification must be "Departs in 24 hours!".
 
 Make sure you check the **Is Standard** checkbox and set the module, so that it generates a file in your custom app.
+
+Note: The **Name** of the Notification **must** end with **Notification** (so that it generates a JSON file of the form  `*notification.json`, which is essential for automated checking)
 
 ## Submission [Mandatory for Certification]
 
