@@ -253,6 +253,8 @@ Now, it is time to allow the user to book tickets! We will use Frappe Framework'
 
 Here are some things to note:
 
+* The **Name** of the Notification **must** end with **Notification** (so that it generates a JSON file of the form  `*notification.json`, which is essential for automated checking)
+
 * This web form must be linked to the Airplane Ticket doctype
 
 * The flight price field in web form must be read only, it should be set (to any value you want) automatically when the user navigates to this page from the flight details page
@@ -277,21 +279,18 @@ Go to your custom app where the files have been generated and upload the followi
 2. `airplane_ticket.json`
 3. The file(s) that power the **Show Me Colors** portal page
 4. `airplane_flight.html` and `airplane_flight_row.html`
-5. The JSON file generated for the **Book Flight Ticket** Web form (look inside the **web_form** directory of your custom app, the name of the file depends on the title you gave to the web form)
-6. The JSON file generated for the **Departs in 24 hours!** notification (look inside the `notification` directory in your custom app)
+5. The JSON file with the name of the form `*web_form.json` generated for the **Book Flight Ticket** Web form (look inside the **web_form** directory of your custom app, the name of the file depends on the title you gave to the web form)
+6. The JSON file with the name of the form `*notification.json` generated for the **Departs in 24 hours!** notification (look inside the `notification` directory in your custom app)
 7. `airplane_ticket.py`
 8. `flight_passenger.py`
 
 :::danger[Before You Submit]
-
-1. Add `.txt` extension to all the files before uploading/attaching. For instance, `airplane_ticket.py` becomes `airplane_ticket.py.txt`
-2. DO NOT upload links to file, attach the file from your local computer
-3. Make sure the DocType names and field names match the above mentioned verbatim.
+Make sure the DocType names and field names match the above mentioned verbatim.
 :::
 
-Use [this](https://cms.buildwithhussain.dev/fschool-assignment-submission/new) form to submit your assignment. Select `2` for the day field.
+Visit [this](https://frappe.school/assignments-portal/day-2) portal to submit your assignment.
 
-If you have any problems in submitting the assignment, please drop me an email at [hussain@frappe.io](mailto:hussain@frappe.io)
+If you have any problems in submitting the assignment or find a bug in the portal, please drop me an email at [hussain@frappe.io](mailto:hussain@frappe.io)
 
 ---
 
