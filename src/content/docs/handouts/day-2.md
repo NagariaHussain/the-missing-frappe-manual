@@ -275,7 +275,7 @@ Note: The **Name** of the Notification **must** end with **Notification** (so th
 If you are unable to complete any task, please feel free to ask them in the next training session or on TG after that. But DO NOT give up before that, try to read the docs, Frappe source code etc. if you don't know something.
 :::
 
-Go to your custom app where the files have been generated and upload the following in the submission form below:
+Go to your custom app where the files have been generated and compress the following files to a ".zip" file and submit below:
 
 1. `airplane_flight.json`
 2. `airplane_ticket.json`
