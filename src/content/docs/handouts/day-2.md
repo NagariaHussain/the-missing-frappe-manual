@@ -285,6 +285,7 @@ Go to your custom app where the files have been generated and compress the follo
 6. The JSON file with the name of the form `*notification.json` generated for the **Departs in 24 hours!** notification (look inside the `notification` directory in your custom app)
 7. `airplane_ticket.py`
 8. `flight_passenger.py`
+9. `airplane_flight.py`
 
 :::danger[Before You Submit]
 Make sure the DocType names and field names match the above mentioned verbatim.
