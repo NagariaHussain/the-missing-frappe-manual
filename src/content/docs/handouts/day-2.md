@@ -196,7 +196,7 @@ The end result should be:
 <img src="/show-me-color-demo.gif"/>
 
 :::tip[Hint]
-Try rendering `frappe.form_dict` in your HTML file (Jinja template).
+You have to complete this task without using any JavaScript. Try rendering `frappe.form_dict` in your HTML file (Jinja template).
 :::
 
 ## Web View Pages For Flights
@@ -279,7 +279,7 @@ Go to your custom app where the files have been generated and compress the follo
 
 1. `airplane_flight.json`
 2. `airplane_ticket.json`
-3. The file(s) that power the **Show Me Colors** portal page
+3. The HTML file that power the **Show Me Colors** portal page
 4. `airplane_flight.html` and `airplane_flight_row.html`
 5. The JSON file with the name of the form `*web_form.json` generated for the **Book Flight Ticket** Web form (look inside the **web_form** directory of your custom app, the name of the file depends on the title you gave to the web form)
 6. The JSON file with the name of the form `*notification.json` generated for the **Departs in 24 hours!** notification (look inside the `notification` directory in your custom app)
