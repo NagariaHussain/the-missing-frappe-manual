@@ -167,9 +167,9 @@ Go to your custom app where the files have been generated and upload the followi
 1. `airline.js`
 2. `airplane_ticket.js`
 3. `airplane_ticket.py`
-4. JSON file for "Airplanes by Airline" report (check the report directory of your custom app)
-5. JSON file for "Add-on Popularity" report
-6. Python file for "Revenue By Airline" report
+4. `airplanes_by_airline.json`: JSON file for "Airplanes by Airline" report (check the report directory of your custom app)
+5. `add_on_popularity.json`: JSON file for "Add-on Popularity" report
+6. `revenue_by_airline.py`: Python file for "Revenue By Airline" report
 7. `airplane_ticket.json`
 8. `airplane.json`
 9. `airport.json`
