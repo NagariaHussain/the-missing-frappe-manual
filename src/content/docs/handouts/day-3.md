@@ -98,7 +98,7 @@ Here are some properties of this report:
 4. Even Airlines with 0 revenue are included.
 
 :::note[FYI]
-The revenue comes from the tickets.
+The revenue comes from the tickets (airplane ticket in any status).
 :::
 
 ## Access Granted
