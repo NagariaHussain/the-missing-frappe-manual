@@ -12,7 +12,7 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: "Missing Frappe Manual",
+      title: "Frappe Framework Training",
       editLink: {
         baseUrl:
           "https://github.com/NagariaHussain/the-missing-frappe-manual/edit/main/",
@@ -24,25 +24,7 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Introduction",
-          items: [
-            {
-              label: "What is Frappe Framework?",
-              link: "/introduction/ff-definition",
-            },
-          ],
-        },
-        {
-          label: "Installation",
-          items: [
-            {
-              label: "Easy Install With Docker",
-              link: "/installation/docker-easy-install",
-            },
-          ],
-        },
-        {
-          label: "FSchool Handouts",
+          label: "Assignments",
           items: [
             // Each item here is one entry in the navigation menu.
             {
