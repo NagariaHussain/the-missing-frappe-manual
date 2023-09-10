@@ -47,6 +47,10 @@ export default defineConfig({
               label: "Day 4",
               link: "/handouts/day-4",
             },
+            {
+              label: "Evaluations",
+              link: "/handouts/evaluations",
+            },
           ],
         },
         {
