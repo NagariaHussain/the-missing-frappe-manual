@@ -24,9 +24,13 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Assignments",
+          label: "Training",
           items: [
             // Each item here is one entry in the navigation menu.
+            {
+              label: "Resources",
+              link: "/handouts/resources",
+            },
             {
               label: "Day 0",
               link: "/handouts/day-0",
