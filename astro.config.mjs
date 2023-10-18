@@ -12,7 +12,7 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: "Frappe Framework Training",
+      title: "Frappe Framework",
       editLink: {
         baseUrl:
           "https://github.com/NagariaHussain/the-missing-frappe-manual/edit/main/",
