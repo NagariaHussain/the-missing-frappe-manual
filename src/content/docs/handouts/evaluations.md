@@ -13,6 +13,18 @@ You must have passed the first 3 assignments and submitted the final open-ended 
 
 The sooner, the better. But make sure you have practiced enough and are confident with all the topics mentioned in the syllabus (check the schedule page) so that you don't have to go through multiple rounds of evaluation 😉
 
+### How To Apply For Evaluations
+
+Visit the enrolled batches page on frappe.school, select your batch, and click on schedule evaluation button:
+
+![Schedule Evaluation Button Screenshot](/schedule_eval_button.png)
+
+You will be asked to pick a date and time slot for evaluation call.
+
+### Direct Evaluation (For Partners)
+
+If you want to apply for evaluation without attending the training and already have experience with building custom Frappe apps, you can apply for evaluations directly by **completing the first 3 assignments** and a link to one of your projects (the final assignment is NOT required in this case).
+
 ### The Evaluation Call
 
 This will be a 1-on-1 Google Meet call with the evaluation (usually 45-60 minutes), where the evaluator will start by discussing your final assignment, and then moving to asking you questions one by one.
@@ -28,6 +40,8 @@ And questions to test that you know how some stuff works behind the scenes in Fr
 
 * Can you open up MariaDB console and write a SQL query to get all the fields and values of the **System Settings** DocType?
 * How are child tables linked to their parent?
+
+> Make sure you have gone through all the essential readings and viewings linked in the handouts!
 
 ### Certificate Release
 
