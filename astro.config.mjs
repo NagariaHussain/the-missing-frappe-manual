@@ -19,7 +19,6 @@ export default defineConfig({
         replacesTitle: true,
       },
       customCss: [
-        // Relative path to your custom CSS file
         './src/styles/custom.css',
       ],
       editLink: {
@@ -29,7 +28,7 @@ export default defineConfig({
       social: {
         youtube: "https://youtube.com/@buildwithhussain",
         github: "https://github.com/NagariaHussain",
-        twitter: "https://twitter.com/NagariaHussain",
+        "x.com": "https://x.com/NagariaHussain",
       },
       sidebar: [
         {

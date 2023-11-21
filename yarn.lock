@@ -948,7 +948,7 @@ astro-expressive-code@^0.29.0:
   dependencies:
     remark-expressive-code "^0.29.1"
 
-astro@^3.2.0:
+astro@^3.5.6:
   version "3.5.6"
   resolved "https://registry.yarnpkg.com/astro/-/astro-3.5.6.tgz#678983181de1e119f523f10f4d6c91dec8bd7adb"
   integrity sha512-50gKrQl7rlPKeChtZVLRMNQDVKJP2PoGk8ZiDVHt4U4AjJjnLs/XvOBuseoSXvQW5Zbp0IQuDN/uzq8hRhTl6w==
