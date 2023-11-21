@@ -12,7 +12,16 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: "Frappe Framework",
+      title: "The Missing Frappe Manual",
+      logo: {
+        light: './src/assets/logo-light.webp',
+        dark: './src/assets/logo-dark.webp',
+        replacesTitle: true,
+      },
+      customCss: [
+        // Relative path to your custom CSS file
+        './src/styles/custom.css',
+      ],
       editLink: {
         baseUrl:
           "https://github.com/NagariaHussain/the-missing-frappe-manual/edit/main/",
