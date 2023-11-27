@@ -5,6 +5,10 @@ description: What, How and When of the Evaluation Process
 
 Now that you are done with all the assignments, it is time to prepare for evaluations and get **that shiny certificate**!
 
+:::danger[Important Note]
+You must complete all the assignments and apply for evaluation **within 45 days** of the last day of the training. After this, no evaluation requests will be entertained unless a genuine reason is provided.
+:::
+
 ### Prerequisites For Apply For Evaluations
 
 You must have passed the first 3 assignments and submitted the final open-ended assignment (Day 4) in order to proceed with the evaluation.
@@ -28,6 +32,10 @@ If you want to apply for evaluation without attending the training and already h
 ### The Evaluation Call
 
 This will be a 1-on-1 Google Meet call with the evaluation (usually 45-60 minutes), where the evaluator will start by discussing your final assignment, and then moving to asking you questions one by one.
+
+:::danger[Important Note]
+If you don't pass your evaluation in the first call, you will get a second (and final) chance to prepare again and re-apply for evaluation. You can ask for the list of topics you were not confident in (which will help you prepare), from the evaluator if not provided.
+:::
 
 ### What Type Of Questions?
 
