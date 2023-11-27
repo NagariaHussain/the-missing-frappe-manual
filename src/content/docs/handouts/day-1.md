@@ -46,7 +46,7 @@ Go ahead, create a few sample records for this.
 Airplane
 
 **Naming Rule**
-Naming Series: Name should be of the form: `IndiGo-013`, `AirAsia-006` etc. where the first part is the name of the airline
+Naming Expression: Name should be of the form: `IndiGo-013`, `AirAsia-006` etc. where the first part is the name of the airline
 
 **Fields**
 
