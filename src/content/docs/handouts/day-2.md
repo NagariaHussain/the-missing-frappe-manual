@@ -3,10 +3,6 @@ title: Day 2
 description: Airplane Mode - Remodelled, Controlled, Online
 ---
 
-## Video Recording
-
-The video recording of the 2nd day of training session can be found [here](https://drive.google.com/file/d/1Ab4Abwy0Rn1Ifl7t1gGxI6IHjogiUcZ2/view?usp=drive_link).
-
 ## Prerequisites
 
 This exercise picks up where [Day 1](/handouts/day-1) left off.

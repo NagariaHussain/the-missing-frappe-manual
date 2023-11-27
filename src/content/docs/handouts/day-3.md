@@ -3,10 +3,6 @@ title: Day 3
 description: Reports, Roles, Permissions, and more!
 ---
 
-## Video Recording
-
-The video recording of the 3rd day of training session can be found [here](https://drive.google.com/file/d/1Lr-HpwibZPx0eEA9wvX_4UZ35YRWepTt/view?usp=drive_link).
-
 ## Gimme Some JavaScript Please
 
 ### Website Link

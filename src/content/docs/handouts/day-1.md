@@ -5,10 +5,6 @@ description: Let's model a Airplane Ticket System using DocTypes!
 
 Welcome to Day 1 folks! In today's training you learned a lot about the concept of a **DocType**. Now it is time for you to explore and practice more!
 
-## Video Recording
-
-The video recording of the 1st day of training session can be found [here](https://drive.google.com/file/d/1zsGn74TLBSvwuQvAfLb_WHXOkOsKXK2u/view?usp=drive_link).
-
 ## Prerequisites
 
 Before proceeding with this exercise, make sure you do the following:
