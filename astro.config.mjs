@@ -14,13 +14,23 @@ export default defineConfig({
     starlight({
       title: "The Missing Frappe Manual",
       logo: {
-        light: './src/assets/logo-light.webp',
-        dark: './src/assets/logo-dark.webp',
+        light: "./src/assets/logo-light.webp",
+        dark: "./src/assets/logo-dark.webp",
         replacesTitle: true,
       },
-      customCss: [
-        './src/styles/custom.css',
+      head: [
+        // Plausible Analytics
+        {
+          tag: "script",
+          attrs: {
+            src: "https://frappecloud.com/js/script.js",
+            "data-api": "https://frappecloud.com/api/event",
+            defer: true,
+            "data-domain": "tmfm.buildwithhussain.dev",
+          },
+        },
       ],
+      customCss: ["./src/styles/custom.css"],
       editLink: {
         baseUrl:
           "https://github.com/NagariaHussain/the-missing-frappe-manual/edit/main/",
