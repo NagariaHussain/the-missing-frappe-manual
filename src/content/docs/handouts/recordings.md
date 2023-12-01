@@ -3,6 +3,14 @@ title: Session Recordings
 description: Video recordings of previous online batches.
 ---
 
+### November, 2023
+
+* [Day 1](https://drive.google.com/file/d/1VioW15Tu9c_kRkpal5bcNKod9ErVXcl_/view?usp=drive_link)
+* [Day 2] -> SOON
+* [Day 3] -> SOON
+* [Day 4, QnA] -> SOON
+
+
 ### October, 2023
 
 > Frappe + Cloud + Apps for Non-devs
