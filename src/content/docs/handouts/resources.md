@@ -49,9 +49,14 @@ Voila! This will open up the site in a new tab:
 
 ![Frappe Site Running through Codespace](/codespace_site_up.png)
 
-> Use `Administrator` and `admin` as username and password respectively.
+### Credentials
 
-> You can also open your codespace in your local VS Code by opening up command palette (`Cmd + Shift + P`) and running:
+* For the site created by default use `Administrator` and `admin` as username and password respectively.
+* MariaDB Root Password: `123`
+
+### Opening Codespace Locally
+
+You can also open your codespace in your local VS Code by opening up command palette (`Cmd + Shift + P`) and running:
 
 ![Open Codespace in VSCode Desktop command](/codespace_vscode_desktop.png)
 
