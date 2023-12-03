@@ -81,6 +81,12 @@ export default defineConfig({
           ],
         },
         {
+          label: "Cookbook",
+          autogenerate: {
+            directory: "cookbook",
+          },
+        },
+        {
           label: "Comparison",
           items: [
             {
@@ -95,12 +101,6 @@ export default defineConfig({
             directory: "no-code",
           },
         },
-        {
-          label: "Cookbook",
-          autogenerate: {
-            directory: "cookbook",
-          },
-        }
       ],
     }),
   ],
