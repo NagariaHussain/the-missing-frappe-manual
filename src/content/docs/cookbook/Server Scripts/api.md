@@ -25,6 +25,11 @@ If you set the **API Method** field to "my-method", the API will be accessible a
 
 ```py
 frappe.response['message'] = 'pong'
+
+## response: 
+# {
+#  "message": "pong"
+# }
 ```
 
 ### 2. Using data from the database
@@ -34,6 +39,11 @@ expenses = frappe.db.get_all('Expense', pluck='amount') # e.g. [300, 200, 1000]
 
 total_amount = sum(expenses)
 frappe.response['total_expenses'] = total_amount
+
+## response: 
+# {
+#  "total_expenses": 1500
+# }
 ```
 
 ### 3. Using data that came with the request
@@ -45,6 +55,11 @@ first_name = frappe.form_dict.first_name
 last_name = frappe.form_dict.last_name
 
 frappe.response['full_name'] = f'{first_name} {last_name}'
+
+## response: 
+# {
+#   "full_name": "John Doe"
+# }
 ```
 
 ### 4. Updating data in the database
@@ -59,4 +74,9 @@ article_doc.num_likes = article_doc.num_likes + 1
 article_doc.save()
 
 frappe.response['message'] = 'success'
+
+## response: 
+# {
+#  "message": "ok"
+# }
 ```
