@@ -3,6 +3,10 @@ title: Day 1
 description: Let's model a Airplane Ticket System using DocTypes!
 ---
 
+## Resources
+
+* [Site Config Docs](https://frappeframework.com/docs/user/en/basics/site_config)
+
 Welcome to Day 1 folks! In today's training you learned a lot about the concept of a **DocType**. Now it is time for you to explore and practice more!
 
 ## Prerequisites

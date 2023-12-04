@@ -1,5 +1,5 @@
 ---
-title: Training Resources
+title: Setup & Useful Links
 description: Links, Documentations, and more.
 ---
 
@@ -8,14 +8,11 @@ description: Links, Documentations, and more.
 1. [Codespaces](#codespaces)
 1. [Local Setup](https://frappeframework.com/docs/user/en/installation)
 
-## Resources
+## Useful Links
 
 1. [Intro Slides](https://docs.google.com/presentation/d/1dvZFucteJsuo3RE6StpCZahE6D3puNfvbFhHINYADn8/edit#slide=id.g25ef0a8935f_1_131)
-1. [Site Config Docs](https://frappeframework.com/docs/user/en/basics/site_config)
 1. [Bench Cheatsheet](https://hussain.click/bench-cheatsheet)
-1. [Recordings & Assignments](https://tmfm.buildwithhussain.dev/)
 1. [Submission Portal](https://frappe.school/assignments-portal/day-1)
-1. [Caching Guide](https://frappeframework.com/docs/user/en/guides/caching)
 
 ## Codespaces
 

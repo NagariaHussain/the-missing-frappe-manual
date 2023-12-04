@@ -47,8 +47,8 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             {
-              label: "Resources",
-              link: "/handouts/resources",
+              label: "Setup & Useful Links",
+              link: "/handouts/setup",
             },
             {
               label: "Recordings",

@@ -3,6 +3,12 @@ title: Day 2
 description: Airplane Mode - Remodelled, Controlled, Online
 ---
 
+## Resources
+
+* [REST API docs](https://frappeframework.com/docs/user/en/api/rest)
+* [List of available DocType Controllers](https://frappeframework.com/docs/user/en/basics/doctypes/controllers)
+* [Virtual DocFields](https://frappeframework.com/docs/user/en/basics/virtual_docfield)
+
 ## Prerequisites
 
 This exercise picks up where [Day 1](/handouts/day-1) left off.

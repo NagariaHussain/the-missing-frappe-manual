@@ -3,6 +3,10 @@ title: Day 4
 description: Finals
 ---
 
+## Resources
+
+* [Caching Guide](https://frappeframework.com/docs/user/en/guides/caching)
+
 ## Final Assignment
 
 Tap yourself on the back! You have finally reached here 🎉🎉
