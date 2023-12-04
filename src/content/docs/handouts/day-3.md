@@ -3,6 +3,10 @@ title: Day 3
 description: Reports, Roles, Permissions, and more!
 ---
 
+## Resources
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Note from Ankush Menat:<br><br>“Dumbed down explanation of how customization works in Frappe i.e. construction of frappe.get_meta(&quot;Sales Invoice&quot;)<br><br>EVERYONE should know this 😬” <a href="https://t.co/gcSvFuMQiY">pic.twitter.com/gcSvFuMQiY</a></p>&mdash; Md Hussain Nagaria (@NagariaHussain) <a href="https://twitter.com/NagariaHussain/status/1721911949875925274?ref_src=twsrc%5Etfw">November 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Gimme Some JavaScript Please
 
 ### Website Link
