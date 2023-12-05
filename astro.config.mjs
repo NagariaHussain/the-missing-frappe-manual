@@ -82,8 +82,13 @@ export default defineConfig({
         },
         {
           label: "Cookbook",
+          badge: {
+            variant: "success",
+            text: "New",
+          },
           autogenerate: {
             directory: "cookbook",
+            collapsed: true
           },
         },
         // {

@@ -1,5 +1,5 @@
 ---
-title: Server Scripts
+title: Common Tasks
 description: Common examples for Document Event, API, and Scheduled Server Scripts.
 ---
 
