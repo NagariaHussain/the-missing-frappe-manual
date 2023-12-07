@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import starlightDocSearch from "@astrojs/starlight-docsearch";
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,6 +13,15 @@ export default defineConfig({
   },
   integrations: [
     starlight({
+      plugins: [
+        starlightDocSearch({
+          appId: "DO73UKKEI5",
+          apiKey: "8de771ac869715eb4a3edde28aecd264",
+          indexName: "tmfm",
+          insights: true,
+          debug: false, // Set debug to true if you want to inspect the modal
+        }),
+      ],
       title: "The Missing Frappe Manual",
       logo: {
         light: "./src/assets/logo-light.webp",
@@ -88,7 +98,7 @@ export default defineConfig({
           },
           autogenerate: {
             directory: "cookbook",
-            collapsed: true
+            collapsed: true,
           },
         },
         // {

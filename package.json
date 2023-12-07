@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.15.0",
+    "@astrojs/starlight-docsearch": "^0.1.0",
     "astro": "^4.0.3"
   }
 }
