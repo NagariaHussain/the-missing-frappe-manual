@@ -23,3 +23,8 @@ frappe.ui.form.on('Live Stream', {
 :::note
 The link opens in a new browser tab. You can add multiple of these web links.
 :::
+
+
+<!-- todo: split into separate files -->
+
+ <!-- todo: button, dialog/prompt, confirm, child table (take FF training wala example) -->
