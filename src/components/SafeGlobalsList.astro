@@ -1,0 +1,59 @@
+---
+import { PLATFORM_BASE_URL } from "../constants";
+import SafeGlobalsTable from "./SafeGlobalsTable.astro";
+
+type SafeGlobals = {
+  [key: string]: {
+    type: string;
+    docs: string;
+    is_callable: boolean;
+    is_builtin: boolean;
+    parent: string;
+  };
+};
+
+type SafeGlobalsResponse = {
+  message: SafeGlobals;
+};
+
+const endpoint = `${PLATFORM_BASE_URL}/api/method/bwh_tools.api.get_serialized_safe_globals`;
+let response = await fetch(endpoint);
+let data: SafeGlobalsResponse = await response.json();
+let safeGlobals = data.message;
+
+// group by parent, if parent is empty group under "Global"
+let groupedSafeGlobals = Object.entries(safeGlobals).reduce(
+  (acc, [name, value]) => {
+    let parent = value.parent || "Global";
+    if (!acc[parent]) {
+      acc[parent] = {};
+    }
+    acc[parent][name] = value;
+    return acc;
+  },
+  {} as { [key: string]: SafeGlobals }
+);
+
+// Sort  by parent name, "Global" should come first
+let items = Object.entries(groupedSafeGlobals);
+items.sort(([a], [b]) => {
+  if (a === "Global") {
+    return -1;
+  }
+  if (b === "Global") {
+    return 1;
+  }
+  return a.localeCompare(b);
+});
+---
+
+<!-- use the data to render a table for each group -->
+
+{items.map(([parent, globals]) => (
+  <div>
+    <h2>{parent}</h2>
+    <SafeGlobalsTable globals={globals} />
+  </div>
+))}
+
+

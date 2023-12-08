@@ -116,6 +116,15 @@ export default defineConfig({
         //     directory: "no-code",
         //   },
         // },
+        {
+          label: "Cheat Sheets",
+          items: [
+            {
+              label: "Server Script Python API",
+              link: "/cheatsheets/script-python-api"
+            }
+          ]
+        }
       ],
     }),
   ],
