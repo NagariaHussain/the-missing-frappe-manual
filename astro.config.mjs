@@ -53,12 +53,25 @@ export default defineConfig({
       },
       sidebar: [
         {
+          label: "Installation",
+          items: [
+            {
+              "label": "Codespaces",
+              "link": "/installation/codespaces"
+            },
+            {
+              "label": "Frappe Manager",
+              "link": "/installation/fm"
+            }
+          ]
+        },
+        {
           label: "Training & Assessments",
           items: [
             // Each item here is one entry in the navigation menu.
             {
-              label: "Setup & Useful Links",
-              link: "/handouts/setup",
+              label: "Introduction",
+              link: "/handouts/introduction",
             },
             {
               label: "Recordings",
