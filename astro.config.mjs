@@ -53,6 +53,10 @@ export default defineConfig({
       },
       sidebar: [
         {
+          label: "Getting Started",
+          link: "/introduction"
+        },
+        {
           label: "Installation",
           items: [
             {
