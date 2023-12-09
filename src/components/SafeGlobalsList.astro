@@ -50,10 +50,10 @@ items.sort(([a], [b]) => {
 <!-- use the data to render a table for each group -->
 
 {items.map(([parent, globals]) => (
-  <div>
+  <>
     <h2>{parent}</h2>
     <SafeGlobalsTable globals={globals} />
-  </div>
+  </>
 ))}
 
 
