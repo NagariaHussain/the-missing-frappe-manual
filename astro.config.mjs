@@ -138,7 +138,11 @@ export default defineConfig({
           items: [
             {
               label: "Server Script Python API",
-              link: "/cheatsheets/script-python-api"
+              link: "/cheatsheets/script-python-api",
+              badge: {
+                variant: "caution",
+                text: "WIP"
+              }
             }
           ]
         }
