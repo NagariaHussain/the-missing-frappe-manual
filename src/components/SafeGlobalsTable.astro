@@ -24,7 +24,11 @@ const props: Props = Astro.props;
     <tbody>
       {Object.entries(props.globals).map(([name, value]) => (
         <tr>
-          <td>{name}</td>
+          <a href=""></a>
+          <td>
+            <a href={`#${name}`}></a>
+            {name}
+          </td>
           <td>{value.type}</td>
           <td>{value.docs}</td>
           <td>{value.parent}</td>
