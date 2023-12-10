@@ -1,9 +1,7 @@
 ---
-title: Common Tasks
-description: Common examples for Document Event, API, and Scheduled Server Scripts.
+title: Making HTTP Requests
+description: Examples of making HTTP Requests from your Scripts
 ---
-
-The below examples work in System Console, Server Scripts and Script Reports.
 
 ### 1. Making HTTP Requests / Calling external APIs
 
