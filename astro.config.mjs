@@ -54,20 +54,20 @@ export default defineConfig({
       sidebar: [
         {
           label: "Getting Started",
-          link: "/introduction"
+          link: "/introduction",
         },
         {
           label: "Installation",
           items: [
             {
-              "label": "Codespaces",
-              "link": "/installation/codespaces"
+              label: "Codespaces",
+              link: "/installation/codespaces",
             },
             {
-              "label": "Frappe Manager",
-              "link": "/installation/fm"
-            }
-          ]
+              label: "Frappe Manager",
+              link: "/installation/fm",
+            },
+          ],
         },
         {
           label: "Training & Assessments",
@@ -141,11 +141,15 @@ export default defineConfig({
               link: "/cheatsheets/script-python-api",
               badge: {
                 variant: "caution",
-                text: "WIP"
-              }
-            }
-          ]
-        }
+                text: "WIP",
+              },
+            },
+            {
+              label: "Bench",
+              link: "/cheatsheets/bench",
+            },
+          ],
+        },
       ],
     }),
   ],
