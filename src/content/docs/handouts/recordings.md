@@ -8,7 +8,7 @@ description: Video recordings of previous online batches.
 * [Day 1](https://drive.google.com/file/d/1VioW15Tu9c_kRkpal5bcNKod9ErVXcl_/view?usp=drive_link)
 * [Day 2](https://drive.google.com/file/d/1CWgEG18Hga8kcD6l04F6lnVJ1iiFWhA9/view?usp=drive_link)
 * [Day 3](https://drive.google.com/file/d/1akRDx_ki4YgiZUt92mTE2Hnflcy3S_W0/view?usp=drive_link)
-* [Day 4, QnA] -> SOON
+* [Day 4, QnA](https://drive.google.com/file/d/1W9-1c85RMBPW0SQTrq1OYajG20NrmPCQ/view?usp=drive_link)
 
 
 ### October, 2023
