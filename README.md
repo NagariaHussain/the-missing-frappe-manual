@@ -1,6 +1,6 @@
 # The Missing Frappe Manual
 
-Source code for the missing Frappe Manual site (powered by Astro Starlight): [tmfm.buildwithhussain.dev](https://tmfm.buildwithhussain.dev).
+Source code for the missing Frappe Manual site (powered by Astro Starlight): [manual.buildwithhussain.dev](https://manual.buildwithhussain.dev).
 
 This site also contains the assignments for Frappe Framework Training Program.
 

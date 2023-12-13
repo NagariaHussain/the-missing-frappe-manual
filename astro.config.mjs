@@ -4,7 +4,7 @@ import starlightDocSearch from "@astrojs/starlight-docsearch";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://tmfm.buildwithhussain.dev",
+  site: "https://manual.buildwithhussain.dev",
   markdown: {
     shikiConfig: {
       theme: "github-dark",
@@ -36,7 +36,7 @@ export default defineConfig({
             src: "https://frappecloud.com/js/script.js",
             "data-api": "https://frappecloud.com/api/event",
             defer: true,
-            "data-domain": "tmfm.buildwithhussain.dev",
+            "data-domain": "manual.buildwithhussain.dev",
           },
         },
       ],
