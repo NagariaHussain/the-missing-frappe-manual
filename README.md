@@ -1,5 +1,7 @@
 # The Missing Frappe Manual
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c98e070e-ed13-4291-a430-fafd1fdd1ec5/deploy-status)](https://app.netlify.com/sites/lucent-chaja-115c54/deploys)
+
 Source code for the missing Frappe Manual site (powered by Astro Starlight): [manual.buildwithhussain.dev](https://manual.buildwithhussain.dev).
 
 This site also contains the assignments for Frappe Framework Training Program.
