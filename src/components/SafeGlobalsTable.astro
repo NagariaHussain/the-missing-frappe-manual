@@ -15,7 +15,7 @@ type Props = {
 const props: Props = Astro.props;
 ---
 
-<table>
+<table role="grid" class="doc-table">
   <thead>
     <tr>
       <th>Name</th>
@@ -41,12 +41,9 @@ const props: Props = Astro.props;
 
         return (
           <tr>
-            <a href="" />
             <td>
-              <a href={`#${name}`} />
               {name}
             </td>
-
             {
               props.is_exception ? null : (
                 <td>{value.type}</td>

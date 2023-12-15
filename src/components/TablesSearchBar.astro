@@ -1,0 +1,44 @@
+---
+
+---
+
+<input
+  id="searchInput"
+  placeholder="Search..."
+  type="text"
+  class="DocSearch DocSearch-Button"
+  style="cursor: text;"
+/>
+
+<script type="module">
+  function filterTables() {
+    console.log("Calling filterTables");
+    // Declare variables
+    let input, filter, table, tr;
+    input = document.getElementById("searchInput");
+    filter = input?.value?.toUpperCase() || "";
+
+    const tables = document.getElementsByClassName("doc-table");
+    for (let i = 0; i < tables.length; i++) {
+      const table = tables[i];
+      const tr = table?.getElementsByTagName("tr") || [];
+      for (let j = 0; j < tr.length; j++) {
+        const td = tr[j].getElementsByTagName("td");
+        for (let k = 0; k < td.length; k++) {
+          const cell = tr[j].getElementsByTagName("td")[k];
+          if (cell) {
+            if (cell.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              tr[j].style.display = "";
+            } else {
+              tr[j].style.display = "none";
+            }
+          }
+        }
+      }
+    }
+  }
+
+  document
+    .getElementById("searchInput")
+    ?.addEventListener("keyup", filterTables);
+</script>

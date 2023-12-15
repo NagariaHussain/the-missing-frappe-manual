@@ -1,6 +1,8 @@
 ---
+import type { loadApp } from "astro/app/node";
 import { PLATFORM_BASE_URL } from "../constants";
 import SafeGlobalsTable from "./SafeGlobalsTable.astro";
+import TablesSearchBar from "./TablesSearchBar.astro";
 
 type SafeGlobals = {
   [key: string]: {
@@ -53,6 +55,7 @@ items.sort(([a], [b]) => {
 ---
 
 <!-- use the data to render a table for each group -->
+<TablesSearchBar client:load />
 
 {items.map(([parent, globals]) => (
   <>
