@@ -5,34 +5,58 @@ type Props = {
       type: string;
       docs: string;
       parent: string;
+      is_callable: boolean;
+      is_exception: boolean;
     };
   };
-}
+  is_exception?: boolean;
+};
 
 const props: Props = Astro.props;
-
 ---
+
 <table>
-    <thead>
-      <tr>
-        <th>name</th>
-        <th>type</th>
-        <th>docs</th>
-      <th>parent</th>
-      </tr>
-    </thead>
-    <tbody>
-      {Object.entries(props.globals).map(([name, value]) => (
-        <tr>
-          <a href=""></a>
-          <td>
-            <a href={`#${name}`}></a>
-            {name}
-          </td>
-          <td>{value.type}</td>
-          <td>{value.docs}</td>
-          <td>{value.parent}</td>
-        </tr>
-      ))}
-    </tbody>
-  </table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      {
+        props.is_exception ? null : (
+          <th>Type</th>
+          <th>docs</th> 
+        )  
+      }
+      
+    </tr>
+  </thead>
+  <tbody>
+    {
+      Object.entries(props.globals).map(([name, value]) => {
+        if (name.startsWith("__builtins__.")) {
+          name = name.replace("__builtins__.", "");
+        }
+
+        if (!props.is_exception && value.is_exception) {
+          return null;
+        }
+
+        return (
+          <tr>
+            <a href="" />
+            <td>
+              <a href={`#${name}`} />
+              {name}
+            </td>
+
+            {
+              props.is_exception ? null : (
+                <td>{value.type}</td>
+                <td>{value.docs}</td>
+              )  
+          }
+            
+          </tr>
+        );
+      })
+    }
+  </tbody>
+</table>

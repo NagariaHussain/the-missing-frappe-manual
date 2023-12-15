@@ -9,6 +9,7 @@ type SafeGlobals = {
     is_callable: boolean;
     is_builtin: boolean;
     parent: string;
+    is_exception: boolean;
   };
 };
 
@@ -16,10 +17,13 @@ type SafeGlobalsResponse = {
   message: SafeGlobals;
 };
 
+
 const endpoint = `${PLATFORM_BASE_URL}/api/method/bwh_tools.api.get_serialized_safe_globals`;
 let response = await fetch(endpoint);
 let data: SafeGlobalsResponse = await response.json();
 let safeGlobals = data.message;
+
+const exceptions = safeGlobals.exceptions;
 
 // group by parent, if parent is empty group under "Global"
 let groupedSafeGlobals = Object.entries(safeGlobals).reduce(
@@ -45,15 +49,20 @@ items.sort(([a], [b]) => {
   }
   return a.localeCompare(b);
 });
+
 ---
 
 <!-- use the data to render a table for each group -->
 
 {items.map(([parent, globals]) => (
   <>
-    <h2>{parent}</h2>
+    <h2 style="margin-bottom: 1.5rem;">{parent}</h2>
     <SafeGlobalsTable globals={globals} />
   </>
 ))}
+
+<!-- render exceptions table -->
+<h2 style="margin-bottom: 1.5rem;">Exceptions</h2>
+<SafeGlobalsTable globals={exceptions} is_exception={true} />
 
 
