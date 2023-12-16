@@ -1,6 +1,12 @@
 ---
+type Props = {
+  globals: { name: string; docs: string }[];
+};
 
+const { globals }: Props = Astro.props;
 ---
+
+<span id="data-span" data-globals={JSON.stringify(globals)}></span>
 
 <input
   id="searchInput"
@@ -10,35 +16,73 @@
   style="cursor: text;"
 />
 
-<script type="module">
-  function filterTables() {
-    console.log("Calling filterTables");
-    // Declare variables
-    let input, filter, table, tr;
-    input = document.getElementById("searchInput");
-    filter = input?.value?.toUpperCase() || "";
+<script>
+  import Fuse from "fuse.js";
 
-    const tables = document.getElementsByClassName("doc-table");
-    for (let i = 0; i < tables.length; i++) {
-      const table = tables[i];
-      const tr = table?.getElementsByTagName("tr") || [];
-      for (let j = 0; j < tr.length; j++) {
-        const td = tr[j].getElementsByTagName("td");
-        for (let k = 0; k < td.length; k++) {
-          const cell = tr[j].getElementsByTagName("td")[k];
-          if (cell) {
-            if (cell.innerHTML.toUpperCase().indexOf(filter) > -1) {
-              tr[j].style.display = "";
-            } else {
-              tr[j].style.display = "none";
-            }
-          }
-        }
-      }
+  // get data-globals from the span
+  const dataSpan = document.getElementById("data-span");
+  const globals = JSON.parse(dataSpan.dataset.globals);
+
+  // create fuse instance
+  const fuse = new Fuse(globals, {
+    keys: ["name", "docs"],
+  });
+
+  // search function
+  const searchAndShowResults = (e) => {
+    const results = fuse.search(e.target.value);
+
+    // create a unstyled table with the results
+    const searchResultsTable = document.getElementById("search-results-table");
+
+    // Title heading
+    const searchResultsTitle = document.getElementById("search-results-title");
+
+    // toggle the visibility of the title if there are results
+    if (results.length > 0) {
+      searchResultsTitle.style.display = "block";
+    } else {
+      searchResultsTitle.style.display = "none";
     }
-  }
+
+    // empty the table's content
+    searchResultsTable.innerHTML = "";
+
+    // create a table header
+    const tableHeader = document.createElement("thead");
+    const tableHeaderRow = document.createElement("tr");
+    const tableHeaderName = document.createElement("th");
+    const tableHeaderDocs = document.createElement("th");
+
+    tableHeaderName.innerText = "Name";
+    tableHeaderDocs.innerText = "Docs";
+
+    tableHeaderRow.appendChild(tableHeaderName);
+    tableHeaderRow.appendChild(tableHeaderDocs);
+    tableHeader.appendChild(tableHeaderRow);
+
+    // create a table body
+    const tableBody = document.createElement("tbody");
+
+    // create a table row for each result
+    results.forEach((result) => {
+      const tableRow = document.createElement("tr");
+      const tableRowName = document.createElement("td");
+      const tableRowDocs = document.createElement("td");
+
+      tableRowName.innerText = result.item.name;
+      tableRowDocs.innerText = result.item.docs;
+
+      tableRow.appendChild(tableRowName);
+      tableRow.appendChild(tableRowDocs);
+      tableBody.appendChild(tableRow);
+    });
+
+    searchResultsTable?.appendChild(tableHeader);
+    searchResultsTable?.appendChild(tableBody);
+  };
 
   document
     .getElementById("searchInput")
-    ?.addEventListener("keyup", filterTables);
+    ?.addEventListener("keyup", searchAndShowResults);
 </script>

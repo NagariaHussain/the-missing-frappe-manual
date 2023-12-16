@@ -1,5 +1,4 @@
 ---
-import type { loadApp } from "astro/app/node";
 import { PLATFORM_BASE_URL } from "../constants";
 import SafeGlobalsTable from "./SafeGlobalsTable.astro";
 import TablesSearchBar from "./TablesSearchBar.astro";
@@ -18,7 +17,6 @@ type SafeGlobals = {
 type SafeGlobalsResponse = {
   message: SafeGlobals;
 };
-
 
 const endpoint = `${PLATFORM_BASE_URL}/api/method/bwh_tools.api.get_serialized_safe_globals`;
 let response = await fetch(endpoint);
@@ -52,20 +50,32 @@ items.sort(([a], [b]) => {
   return a.localeCompare(b);
 });
 
+// processed API list for search [{name: "", docs: ""}]
+let apiList = Object.entries(safeGlobals).map(([name, value]) => {
+  return {
+    name,
+    docs: value.docs,
+  };
+});
 ---
 
 <!-- use the data to render a table for each group -->
-<TablesSearchBar client:load />
+<TablesSearchBar globals={apiList} />
 
-{items.map(([parent, globals]) => (
-  <>
-    <h2 style="margin-bottom: 1.5rem;">{parent}</h2>
-    <SafeGlobalsTable globals={globals} />
-  </>
-))}
+<h2 id="search-results-title" style="margin-bottom: 1.5rem; display: none;">
+  Search Results
+</h2>
+<table id="search-results-table"></table>
+
+{
+  items.map(([parent, globals]) => (
+    <ta>
+      <h2 style="margin-bottom: 1.5rem;">{parent}</h2>
+      <SafeGlobalsTable parent={parent} globals={globals} />
+    </ta>
+  ))
+}
 
 <!-- render exceptions table -->
 <h2 style="margin-bottom: 1.5rem;">Exceptions</h2>
 <SafeGlobalsTable globals={exceptions} is_exception={true} />
-
-
