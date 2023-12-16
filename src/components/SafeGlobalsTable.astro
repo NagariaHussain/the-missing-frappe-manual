@@ -7,6 +7,7 @@ type Props = {
       parent: string;
       is_callable: boolean;
       is_exception: boolean;
+      signature: string;
     };
   };
   is_exception?: boolean;
@@ -44,6 +45,11 @@ const props: Props = Astro.props;
           <tr>
             <td>
               <strong>{name}</strong>
+              {value.signature ? (
+                <br>
+                <p><em>Signature:</em></p>
+                <span style=" font-family: 'Courier New', Courier, monospace;">{name}{value.signature}</span>
+              ) : null}
             </td>
             {
               props.is_exception ? null : (
