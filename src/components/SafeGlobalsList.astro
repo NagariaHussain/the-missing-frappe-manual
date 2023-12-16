@@ -70,7 +70,7 @@ let apiList = Object.entries(safeGlobals).map(([name, value]) => {
 {
   items.map(([parent, globals]) => (
     <ta>
-      <h2 style="margin-bottom: 1.5rem;">{parent}</h2>
+      <h2 style="margin-bottom: 1.5rem; margin-top: 1rem;">{parent}</h2>
       <SafeGlobalsTable parent={parent} globals={globals} />
     </ta>
   ))

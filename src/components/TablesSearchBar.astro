@@ -45,6 +45,13 @@ const { globals }: Props = Astro.props;
       searchResultsTitle.style.display = "none";
     }
 
+    // toggle the visibility of the table if there are results
+    if (results.length > 0) {
+      searchResultsTable.style.display = "table";
+    } else {
+      searchResultsTable.style.display = "none";
+    }
+
     // empty the table's content
     searchResultsTable.innerHTML = "";
 
