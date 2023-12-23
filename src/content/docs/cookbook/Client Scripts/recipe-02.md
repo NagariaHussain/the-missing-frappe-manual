@@ -17,7 +17,8 @@ The district doctype has a field which stores which State it belongs to:
 
 ```js {3-9}
 frappe.ui.form.on('Location', {
- refresh(frm) {
+ // whenever "state" field is changed
+ state(frm) {
      frm.set_query("district", (doc) => {
          return {
              filters: {
