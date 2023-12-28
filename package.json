@@ -10,9 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.15.0",
+    "@astrojs/check": "^0.3.4",
+    "@astrojs/starlight": "^0.15.1",
     "@astrojs/starlight-docsearch": "^0.1.0",
-    "astro": "^4.0.3",
-    "fuse.js": "^7.0.0"
+    "astro": "^4.0.8",
+    "astro-og-canvas": "^0.4.2",
+    "fuse.js": "^7.0.0",
+    "sharp": "^0.33.1",
+    "typescript": "^5.3.3"
   }
 }

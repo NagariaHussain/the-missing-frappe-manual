@@ -1,0 +1,25 @@
+---
+import type { Props } from "@astrojs/starlight/props";
+import Default from "@astrojs/starlight/components/Head.astro";
+import { getOgImageUrl } from "../../utils/getOgImageUrl";
+
+
+const ogImageUrl = getOgImageUrl(Astro.url.pathname);
+// TODO: Create a default og image
+const imageSrc = ogImageUrl ?? "/default-og-image.png";
+const canonicalImageSrc = new URL(imageSrc, Astro.site);
+---
+
+<!-- OG Images -->
+<Default {...Astro.props}><slot /></Default>
+<meta property="og:image" content={canonicalImageSrc} />
+<meta name="twitter:image" content={canonicalImageSrc} />
+
+<meta name="twitter:site" content="buildwithhussain" />
+
+<!-- Plausible analytics -->
+<script
+  src="https://frappecloud.com/js/script.js"
+  data-api="https://frappecloud.com/api/event"
+  data-domain="manual.buildwithhussain.dev"
+  defer></script>

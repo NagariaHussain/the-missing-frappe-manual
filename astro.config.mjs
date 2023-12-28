@@ -22,24 +22,16 @@ export default defineConfig({
           debug: false, // Set debug to true if you want to inspect the modal
         }),
       ],
+      pagefind: false,
       title: "The Missing Frappe Manual",
       logo: {
         light: "./src/assets/logo-light.webp",
         dark: "./src/assets/logo-dark.webp",
         replacesTitle: true,
       },
-      head: [
-        // Plausible Analytics
-        {
-          tag: "script",
-          attrs: {
-            src: "https://frappecloud.com/js/script.js",
-            "data-api": "https://frappecloud.com/api/event",
-            defer: true,
-            "data-domain": "manual.buildwithhussain.dev",
-          },
-        },
-      ],
+      components: {
+        "Head": "./src/components/starlight/Head.astro"
+      },
       customCss: ["./src/styles/custom.css"],
       editLink: {
         baseUrl:
