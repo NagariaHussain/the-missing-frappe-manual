@@ -122,9 +122,14 @@ export default defineConfig({
             },
             {
               label: "Report",
-              autogenerate: {
-                directory: "/cookbook/report",
-              },
+              items: [
+                {
+                  label: "Script Report",
+                  autogenerate: {
+                    directory: "/cookbook/report/script-report",
+                  },
+                }
+              ],
               collapsed: true,
             },
           ],
