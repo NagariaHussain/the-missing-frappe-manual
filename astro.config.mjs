@@ -105,26 +105,30 @@ export default defineConfig({
             variant: "success",
             text: "New",
           },
-          autogenerate: {
-            directory: "cookbook",
-            collapsed: true,
-          },
+          items: [
+            {
+              label: "Server Script",
+              autogenerate: {
+                directory: "/cookbook/server-script",
+              },
+              collapsed: true,
+            },
+            {
+              label: "Client Script",
+              autogenerate: {
+                directory: "/cookbook/client-script",
+              },
+              collapsed: true,
+            },
+            {
+              label: "Report",
+              autogenerate: {
+                directory: "/cookbook/report",
+              },
+              collapsed: true,
+            },
+          ],
         },
-        // {
-        //   label: "Comparison",
-        //   items: [
-        //     {
-        //       label: "Frappe Framework vs Django",
-        //       link: "/comparison/ff-vs-django",
-        //     },
-        //   ],
-        // },
-        // {
-        //   label: "No Code",
-        //   autogenerate: {
-        //     directory: "no-code",
-        //   },
-        // },
         {
           label: "Cheat Sheets",
           items: [
