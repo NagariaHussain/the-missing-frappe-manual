@@ -25,6 +25,7 @@ You will extend the existing Airplane mode app you have been working on in the p
 
 * Ability to track **crew members** in a flight
 * Ability to track gate number in a ticket
+* Write at least 2 unit tests to test any of your controller logic that you have already implemented
 
 **Major**
 
