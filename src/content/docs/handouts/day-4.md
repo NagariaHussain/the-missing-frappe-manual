@@ -37,7 +37,7 @@ The airport personnel are happy with the work your have done till now and want t
     * contract details (rent amount, date of expiry, etc.)
     * shop number, name etc.
     * physical properties like area of the shop
-3. The system should have the ability to track the rent payments collected per month and issue a rent receipt for the shop/tenant
+3. The system should have the ability to track the rent payments collected per month and issue a rent receipt (brownie points for using [Print Designer](https://github.com/frappe/print_designer) for designing a print format for receipt!) for the shop/tenant
 4. Ability to track how many shops a particular airport has
 5. Ability to track how many shops are available for lease and how many are occupied in a particular airport
 6. The tenants should be reminded about rent due at every month via email (use scheduler events!)
