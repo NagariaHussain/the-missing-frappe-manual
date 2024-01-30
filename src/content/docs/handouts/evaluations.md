@@ -25,9 +25,9 @@ Visit the enrolled batches page on frappe.school, select your batch, and click o
 
 You will be asked to pick a date and time slot for evaluation call.
 
-### Direct Evaluation (For Partners)
-
-If you want to apply for evaluation without attending the training and already have experience with building custom Frappe apps, you can apply for evaluations directly by **completing the first 3 assignments** and a link to one of your projects (the final assignment is NOT required in this case).
+:::tip[For Partner Members]
+Please drop an email to <sayali@frappe.io> to schedule an evaluation.
+:::
 
 ### The Evaluation Call
 
