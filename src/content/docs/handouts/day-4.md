@@ -43,6 +43,11 @@ The airport personnel are happy with the work your have done till now and want t
 7. Introduce a new single DocType to manage configurations related to your airport shop management module
 8. A new portal page that shows the list of all available shops in the system
 
+### A few more scenarios to think about
+
+* What happens to tickets when the gate number of a flight changes?
+* How will the payment schedule work?
+
 ## Submission
 
 Compress your app (`airplane_mode`) folder and upload it [here](https://frappe.school/assignments-portal/day-4). This assignment will be manually evaluated by me and discussed during the evaluation call.
