@@ -40,7 +40,9 @@ The airport personnel are happy with the work your have done till now and want t
 4. Ability to track how many shops a particular airport has
 5. Ability to track how many shops are available for lease and how many are occupied in a particular airport
 6. The tenants should be reminded about rent due at every month via email (use scheduler events!)
-7. Introduce a new single DocType to manage configurations related to your airport shop management module
+7. Introduce two global configurations through which the user can: (Hint: think single)
+    * set a default rent amount for shops
+    * enable/disable rent reminders
 8. A new portal page that shows the list of all available shops in the system
 
 ### A few more scenarios to think about
