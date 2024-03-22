@@ -3,6 +3,12 @@ title: Session Recordings
 description: Video recordings of previous online batches.
 ---
 
+### March, 2024 [In-person Dubai]
+
+* [Day 1](https://youtu.be/4VCq0Xix2EM?si=w04iiJ6AbMqAk9JO)
+* [Day 2](https://youtu.be/39v-qDN_wdM?si=lWpUQckUiwSxvYhL)
+* Day 3 - SOON
+
 ### November, 2023
 
 * [Day 1](https://drive.google.com/file/d/1VioW15Tu9c_kRkpal5bcNKod9ErVXcl_/view?usp=drive_link)
