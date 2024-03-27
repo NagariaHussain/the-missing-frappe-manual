@@ -3,6 +3,10 @@ title: Session Recordings
 description: Video recordings of previous online batches.
 ---
 
+### March, 2024 [Online]
+
+* [Day 1](https://drive.frappe.cloud/drive/file/aa9f5b6011f64dd0a94b9142f0a4a897)
+
 ### March, 2024 [In-person Dubai]
 
 * [Day 1](https://youtu.be/4VCq0Xix2EM?si=w04iiJ6AbMqAk9JO)
