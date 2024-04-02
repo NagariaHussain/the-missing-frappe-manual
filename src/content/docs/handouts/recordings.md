@@ -6,12 +6,14 @@ description: Video recordings of previous online batches.
 ### March, 2024 [Online]
 
 * [Day 1](https://drive.frappe.cloud/drive/file/aa9f5b6011f64dd0a94b9142f0a4a897)
+* [Day 2](https://drive.frappe.cloud/drive/file/ef61a00639544736922d5e4833b07554)
+* [Day 3](https://drive.frappe.cloud/drive/file/d5597a02371d4310b5336a3fd1c3b536)
 
 ### March, 2024 [In-person Dubai]
 
 * [Day 1](https://youtu.be/4VCq0Xix2EM?si=w04iiJ6AbMqAk9JO)
 * [Day 2](https://youtu.be/39v-qDN_wdM?si=lWpUQckUiwSxvYhL)
-* Day 3 - SOON
+* Day 3 - In Post Production
 
 ### November, 2023
 
