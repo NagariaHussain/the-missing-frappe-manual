@@ -13,7 +13,7 @@ description: Video recordings of previous online batches.
 
 * [Day 1](https://youtu.be/4VCq0Xix2EM?si=w04iiJ6AbMqAk9JO)
 * [Day 2](https://youtu.be/39v-qDN_wdM?si=lWpUQckUiwSxvYhL)
-* Day 3 - In Post Production
+* [Day 3](https://youtu.be/EktkM18GNnM?si=89cfjKVn5PYO8WhE)
 
 ### November, 2023
 
