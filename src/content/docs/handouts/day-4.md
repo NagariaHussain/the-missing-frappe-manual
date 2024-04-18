@@ -52,7 +52,15 @@ The airport personnel are happy with the work your have done till now and want t
 
 ## Submission
 
-Compress your app (`airplane_mode`) folder and upload it [here](https://frappe.school/assignments-portal/day-4). This assignment will be manually evaluated by me and discussed during the evaluation call.
+You must submit the below two pieces:
+
+1. Compressed app (`airplane_mode`) folder.
+
+2. A recorded a demo video (`mp4`) of your project (just Day 4), showcasing how you implemented each of the requirements (both minor and major) in your app. You should keep this page open and walk through each point one by one in your screen cast/demo video.
+
+You will have the option to upload both the above things [here](https://frappe.school/assignments-portal/day-4).
+
+This assignment will be manually evaluated by me and discussed during the evaluation call.
 
 :::note[Need Help?]
 If you have any problem in understanding the above assignment or have issues with submitting your assignment, feel free to drop me an email at <hussain@frappe.io>
