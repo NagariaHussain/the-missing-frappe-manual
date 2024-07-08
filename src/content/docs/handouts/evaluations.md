@@ -9,6 +9,10 @@ Now that you are done with all the assignments, it is time to prepare for evalua
 You must complete all the assignments and apply for evaluation **within 45 days** of the last day of the training. After this, no evaluation requests will be entertained unless a genuine reason is provided.
 :::
 
+:::tip[Important Note]
+You must have a working local Frappe setup during the call.
+:::
+
 ### Prerequisites For Apply For Evaluations
 
 You must have passed the first 3 assignments and submitted the final open-ended assignment (Day 4) in order to proceed with the evaluation.
