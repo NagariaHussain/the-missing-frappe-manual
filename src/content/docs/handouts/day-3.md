@@ -79,6 +79,10 @@ Here are some properties of this report:
 
 ### Revenue By Airline
 
+:::danger
+You can't use raw SQL query for this task. Please use `get_all` or [Query Builder](https://frappeframework.com/docs/user/en/api/query-builder).
+:::
+
 Now this is a very important report, the company wants to check which Airline is making more money 🤑
 
 Your task to create a report like the one shown below:
