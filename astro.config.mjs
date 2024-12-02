@@ -19,7 +19,6 @@ export default defineConfig({
           apiKey: "8de771ac869715eb4a3edde28aecd264",
           indexName: "tmfm",
           insights: true,
-          debug: false, // Set debug to true if you want to inspect the modal
         }),
       ],
       pagefind: false,
