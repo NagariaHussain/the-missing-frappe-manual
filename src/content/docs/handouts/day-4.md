@@ -19,14 +19,14 @@ This is the final assignment for the Frappe Framework certification program and 
 You will extend the existing Airplane mode app you have been working on in the previous 3 assignments.
 :::
 
-### Requirements
+### Part 1
 
-**Minor**
+Add the following features to your existing airplane mode app:
 
 * Ability to track **crew members** in a flight
 * Ability to track gate number in a ticket
 
-**Major**
+### Part 2
 
 The airport personnel are happy with the work your have done till now and want to **extend your contract to implement a new module in the airplane mode app**. This module will help them **track shops** (given on lease to 3rd party) at airports. Your job is to implement this module. Here is a rough requirement outline given to you by the airport authority, but feel free to go beyond this with your creativity:
 
@@ -43,12 +43,45 @@ The airport personnel are happy with the work your have done till now and want t
 7. Introduce two global configurations through which the user can: (Hint: think single)
     * set a default rent amount for shops
     * enable/disable rent reminders
-8. A new portal page that shows the list of all available shops in the system
 
-### A few more scenarios to think about
+#### A few important scenarios to think about
 
-* What happens to tickets when the gate number of a flight changes?
+* What happens to gate numbers set in tickets when the gate number of a flight changes?
 * How will the payment schedule work?
+
+#### Web Portal
+
+Create a simple web portal that has the following:
+
+* a page that shows a list of shops
+* has a shop details page for each shop (on click of shop from the list)
+* details page also contains a link to a web form for collecting "shop leads" (as in *they are interested to rent this shop*).
+* download and use [this](https://cdn.jsdelivr.net/npm/picnic) CSS file for styling the pages. Don't inherit from the base `web.html` template. ([reading](https://frappeframework.com/docs/user/en/basics/static-assets))
+
+### Part 3
+
+#### Shop Types
+
+* Create a DocType named `Shop Type` and link it to your shop DocType using a link field.
+* This should have an **Enabled?** checkbox
+* Your app should have/create the following types of shops out of the box (all enabled):
+    1. Stall
+    2. Walk-through
+    3. Normal
+* Filter the link field in shop form to only show shop types that are enabled.
+
+:::tip[Hint]
+Look for `fixtures` and `set_query` JS API!
+:::
+
+#### REST API Usage
+
+1. Download [bruno](https://www.usebruno.com/) API client (FOSS)
+2. [Create a request](https://docs.usebruno.com/get-started/bruno-basics/create-a-collection) to get a list of shops (with all fields) using Frappe's REST API
+3. Create a POST request to create a new shop via API
+4. Make sure you properly authenticate the API calls
+
+You will have to demo both of these requests (and how did you authenticate the request) in your demo video (more information below).
 
 ## Submission
 
@@ -56,14 +89,14 @@ You must submit the below two pieces:
 
 1. Compressed app (`airplane_mode`) folder.
 
-2. A recorded a demo video (`mp4`) of your project (just Day 4), showcasing how you implemented each of the requirements (both minor and major) in your app. You should keep this page open and walk through each point one by one in your screen cast/demo video.
+2. A recorded a demo video (`mp4`) of your project (just Day 4), showcasing how you implemented each of the requirements (all the parts above) in your app. You should keep this page open and walk through each point one by one in your screen cast/demo video.
 
 You will have the option to upload both the above things [here](https://frappe.school/assignments-portal/day-4).
 
 This assignment will be manually evaluated by me and discussed during the evaluation call.
 
 :::note[Need Help?]
-If you have any problem in understanding the above assignment or have issues with submitting your assignment, feel free to drop me an email at <hussain@frappe.io>
+If you have any problem in understanding the above assignment or have issues with submitting your assignment, feel free to drop me an email at <support@frappe.school>
 :::
 
 ## Advanced Frappe

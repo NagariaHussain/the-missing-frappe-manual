@@ -165,6 +165,23 @@ Write Python/Controller code to achieve the following outcome:
 Fix the currency symbol in the above form issue if you want to.
 :::
 
+#### Patch it up!
+
+Imagine this scenario: a lot of people have already installed your app and have created tickets after Day 1. Now that you have added a new field for seat, we want to populate it automatically for existing installations (think why it won't automatically populate?). If you thought about [patches](https://frappeframework.com/docs/user/en/database-migrations#writing-a-patch), pat~~ch~~ yourselves on the back!
+
+Your task is to write a patch (think [which type](https://frappeframework.com/docs/user/en/database-migrations#post-model-sync-patches-v14--develop-branch-only) you will need to write) that populates the seat field of all the existing **Airplane Ticket** documents according to the rule we discussed in the [previous task](#a-few-more-controllers).
+
+You MUST name your patch file `populate_seats.py`.
+
+:::tip
+If you want to test out your patch while iterating, you can use this handy bench command:
+
+```sh
+bench --site <site-name> run-patch <dotted.path.to.patch.file>
+```
+
+:::
+
 ---
 
 ## Essential Reading
@@ -288,6 +305,7 @@ Go to your custom app where the files have been generated and compress the follo
 7. `airplane_ticket.py`
 8. `flight_passenger.py`
 9. `airplane_flight.py`
+10. `populate_seats.py` (the patch file)
 
 :::danger[Before You Submit]
 Make sure the DocType names and field names match the above mentioned verbatim.
@@ -300,20 +318,6 @@ If you have any problems in submitting the assignment or find a bug in the porta
 ---
 
 Awesome! That is it for today, check out the optional challenges section for some open ended practice tasks!
-
-## In Action: Web Views & Portal Pages
-
-### FrappeLMS Portal Pages
-
-Check [this](https://github.com/frappe/lms/tree/main/lms/www) out, this is the `www` directory of the FrappeLMS app, it is 🤯
-
-The whole (complex) frontend is build on portal pages!
-
-### FC Marketplace Web View
-
-Now check [this](https://github.com/frappe/press/blob/master/press/press/doctype/marketplace_app/templates/marketplace_app.html) file, this is the web view template of the marketplace app detail page! For example, [this](https://frappecloud.com/marketplace/apps/gameplan) is the detail for Gameplan marketplace app.
-
-I hope this examples convince you to leverage the power of web views and portal pages in your own custom apps!
 
 ## Optional Challenges
 
