@@ -2,15 +2,19 @@ import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightDocSearch from "@astrojs/starlight-docsearch";
 
+import netlify from "@astrojs/netlify";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://manual.buildwithhussain.dev",
+
   markdown: {
     shikiConfig: {
       theme: "github-dark",
       wrap: true,
     },
   },
+
   integrations: [
     starlight({
       plugins: [
@@ -153,4 +157,7 @@ export default defineConfig({
       ],
     }),
   ],
+
+  output: "server",
+  adapter: netlify(),
 });
