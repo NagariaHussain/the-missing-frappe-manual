@@ -165,7 +165,7 @@ Write Python/Controller code to achieve the following outcome:
 Fix the currency symbol in the above form issue if you want to.
 :::
 
-#### Patch it up!
+### Patch it up!
 
 Imagine this scenario: a lot of people have already installed your app and have created tickets after Day 1. Now that you have added a new field for seat, we want to populate it automatically for existing installations (think why it won't automatically populate?). If you thought about [patches](https://frappeframework.com/docs/user/en/database-migrations#writing-a-patch), pat~~ch~~ yourselves on the back!
 
