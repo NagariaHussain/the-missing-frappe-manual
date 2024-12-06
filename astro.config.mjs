@@ -138,6 +138,15 @@ export default defineConfig({
           ],
         },
         {
+          label: "Guides", 
+          items: [
+            {
+              label: "Login with Frappe",
+              link: "/guides/login-with-frappe"
+            }
+          ]
+        },
+        {
           label: "Cheat Sheets",
           items: [
             {
