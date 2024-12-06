@@ -35,6 +35,8 @@ Open up the `OAuth Client` DocType and create a new document:
 
 ![Screenshot showing OAuth Client Form](../../../assets/images/guides/jennys-erp-oauth-client-form.png)
 
+In this case, I am doing this step in my `erp.jennysart.online` site. Here are the fields you need to set:
+
 1. **App Name**: this can be anything that can be used to identify the client site.
 2. **Skip Authorization**: I have checked this, so there is no additional confirmation step before login.
 3. (and 4) **Redirect URIs** and **Default Redirect URI**: Both are set to the following URL (the endpoint comes out of the box in Framework):
