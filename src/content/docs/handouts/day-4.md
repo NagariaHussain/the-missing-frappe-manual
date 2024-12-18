@@ -44,9 +44,11 @@ The airport personnel are happy with the work your have done till now and want t
     * set a default rent amount for shops
     * enable/disable rent reminders
 
-#### A few important scenarios to think about
+#### A few important scenarios to implement
 
 * What happens to gate numbers set in tickets when the gate number of a flight changes?
+    > This must be done in a **background job** (so when gate number in flight is changed, a background job should be triggered to update the gate number in tickets)
+
 * How will the payment schedule work?
 
 #### Web Portal
