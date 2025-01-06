@@ -66,7 +66,7 @@ Create a simple web portal that has the following:
 
 * Create a DocType named `Shop Type` and link it to your shop DocType using a link field.
 * This should have an **Enabled?** checkbox
-* Your app should have/create the following types of shops out of the box (all enabled):
+* Your app should have/create the following types of shops **out of the box** (come with the app):
     1. Stall
     2. Walk-through
     3. Normal
