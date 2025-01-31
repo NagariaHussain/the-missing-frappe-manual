@@ -232,6 +232,8 @@ Your task here is to build web view pages for the `Airplane Flight` DocType. Thi
 
 * The detail page for each flight at the route coming from the `route` field of the `Airplane Flight` document. A **Book Flight** link should be shown that takes the user to a web form we are going to build in the next section.
 
+* The is published field for the web view must be named "Is Published?" (`is_published`).
+
 The look of the pages does not matter as long as they **display the required information**. Here are the sample pages:
 
 ![Flights List Web View](../../../assets/images/flight-list-web-view.png)
