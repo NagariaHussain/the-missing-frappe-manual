@@ -14,7 +14,6 @@ export default defineConfig({
       wrap: true,
     },
   },
-
   integrations: [
     starlight({
       plugins: [
@@ -168,5 +167,8 @@ export default defineConfig({
   ],
 
   output: "server",
+  redirects: {
+    '/handouts/[...slug]': 'https://docs.frappe.io/school/framework-assignments/[...slug]'
+  },
   adapter: netlify(),
 });
