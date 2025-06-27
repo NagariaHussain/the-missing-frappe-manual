@@ -168,7 +168,8 @@ export default defineConfig({
 
   output: "server",
   redirects: {
-    '/handouts/[...slug]': 'https://docs.frappe.io/school/framework-assignments/[...slug]'
+    '/handouts/[...slug]': 'https://docs.frappe.io/school/framework-assignments/[...slug]',
+    'https://manual.buildwithhussain.dev/[...slug]': 'https://manual.buildwithhussain.com/[...slug]',
   },
   adapter: netlify(),
 });
