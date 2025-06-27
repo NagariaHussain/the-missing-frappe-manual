@@ -1,3 +1,4 @@
-/handouts/evaluations https://docs.frappe.io/school/evaluations/framework
-/handouts/* https://docs.frappe.io/school/framework-assignments/:splat
-/school-docs https://docs.frappe.io/school
+https://manual.buildwithhussain.dev/* https://manual.buildwithhussain.com/:splat 301
+/handouts/evaluations https://docs.frappe.io/school/evaluations/framework 301
+/handouts/* https://docs.frappe.io/school/framework-assignments/:splat 301
+/school-docs https://docs.frappe.io/school 301
