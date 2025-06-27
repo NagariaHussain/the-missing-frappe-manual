@@ -1,6 +1,6 @@
 import { OGImageRoute } from "astro-og-canvas";
 
-import { allPages } from "../../content";
+import { allPages } from "../../content.config";
 
 type OGImageOptions = Awaited<
   ReturnType<Parameters<typeof OGImageRoute>[0]["getImageOptions"]>
