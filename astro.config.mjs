@@ -6,7 +6,7 @@ import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://manual.buildwithhussain.dev",
+  site: "https://manual.buildwithhussain.com",
 
   markdown: {
     shikiConfig: {

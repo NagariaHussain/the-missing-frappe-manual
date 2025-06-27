@@ -1,4 +1,4 @@
-let BASE_URL = "https://platform.buildwithhussain.dev/";
+let BASE_URL = "https://buildwithhussain.com/";
 
 if (process.env.NODE_ENV === "development") {
   BASE_URL = "http://hcloud.localhost:8000/";
