@@ -39,12 +39,12 @@ export default defineConfig({
         baseUrl:
           "https://github.com/NagariaHussain/the-missing-frappe-manual/edit/main/",
       },
-      social: {
-        discord: "https://discord.gg/SZrgj2RjuY",
-        youtube: "https://youtube.com/@buildwithhussain",
-        github: "https://github.com/NagariaHussain",
-        "x.com": "https://x.com/NagariaHussain",
-      },
+      social: [
+        {icon: "discord", label: "Discord", href: "https://discord.gg/SZrgj2RjuY"},
+        {icon: "youtube", label: "YouTube", href: "https://youtube.com/@buildwithhussain"},
+        {icon: "github", label: "GitHub", href: "https://github.com/NagariaHussain"},
+        {icon: "x.com", label: "X.com", href: "https://x.com/NagariaHussain"},
+      ],
       sidebar: [
         {
           label: "Getting Started",
@@ -167,9 +167,5 @@ export default defineConfig({
   ],
 
   output: "server",
-  redirects: {
-    '/handouts/[...slug]': 'https://docs.frappe.io/school/framework-assignments/[...slug]',
-    'https://manual.buildwithhussain.dev/[...slug]': 'https://manual.buildwithhussain.com/[...slug]',
-  },
   adapter: netlify(),
 });
