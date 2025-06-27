@@ -1,8 +1,11 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import starlightImageZoom from 'starlight-image-zoom'
 import starlightDocSearch from "@astrojs/starlight-docsearch";
 
 import netlify from "@astrojs/netlify";
+
+import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
@@ -14,9 +17,11 @@ export default defineConfig({
       wrap: true,
     },
   },
+
   integrations: [
     starlight({
       plugins: [
+        starlightImageZoom(),
         starlightDocSearch({
           appId: "DO73UKKEI5",
           apiKey: "8de771ac869715eb4a3edde28aecd264",
@@ -34,7 +39,9 @@ export default defineConfig({
       components: {
         "Head": "./src/components/starlight/Head.astro"
       },
-      customCss: ["./src/styles/custom.css"],
+      customCss: [
+        './src/styles/global.css'
+      ],
       editLink: {
         baseUrl:
           "https://github.com/NagariaHussain/the-missing-frappe-manual/edit/main/",
@@ -168,4 +175,8 @@ export default defineConfig({
 
   output: "server",
   adapter: netlify(),
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });

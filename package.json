@@ -14,10 +14,14 @@
     "@astrojs/netlify": "6.4.0",
     "@astrojs/starlight": "0.34.4",
     "@astrojs/starlight-docsearch": "0.6.0",
+    "@astrojs/starlight-tailwind": "^4.0.1",
+    "@tailwindcss/vite": "^4.1.11",
     "astro": "5.10.1",
     "astro-og-canvas": "^0.4.2",
     "fuse.js": "^7.0.0",
     "sharp": "^0.33.5",
+    "starlight-image-zoom": "^0.12.0",
+    "tailwindcss": "^4.1.11",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
